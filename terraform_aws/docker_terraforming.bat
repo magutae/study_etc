@@ -1,0 +1,2 @@
+@echo off
+docker run --rm --name terraforming -e AWS_ACCESS_KEY_ID="AKIASNQWH32EBUVIJIGP" -e AWS_SECRET_ACCESS_KEY="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" -e AWS_REGION="ap-northeast-2" quay.io/dtan4/terraforming:latest terraforming %1
